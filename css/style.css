@@ -1,6 +1,83 @@
+/*/* CSS Reset */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/* End of CSS Reset */*/
+
 body, nav, ul, li, a  {margin: 0; padding: 0;}
 body {font-family: "Roboto", Helvetica, Arial, sans-serif; }
+
+/* Typography */
+h1 {
+    font-size: 36px;
+    color: #5B9BD5;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #5B9BD5;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+
 a {text-decoration: none;}
+
+/* Header and Top Navigation */
 .logo {
     color: #5B9BD5;
     font-weight: 900;
@@ -11,14 +88,18 @@ a {text-decoration: none;}
 }
 
 .container {
-    padding: 0 15px;
+    padding: 0 10px;
     border-top: 3px solid #929292;
     width: 100%;
     /*max-width: 1100px;*/
     margin: 0 auto;
 }
+
+/*header {
+    width: 100%;
+}*/
+
 .toggleMenu {
-    display:  none;
     background: #5B9BD5;
     padding: 10px 15px;
     color: white;
@@ -138,4 +219,28 @@ a {text-decoration: none;}
         position: static;
     }  
 
+}
+/* End of Header and Top Navigation */
+
+/* About and Mission Statement Section */
+#about h3 {
+    margin-top: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+#about .mission, .about-us {
+    color: #5B9BD5;
+    font-weight: 500;
+}
+
+#about .about-us {
+    margin-bottom: 10px;
+    color: #5B9BD5;
+    font-weight: 500;
+}
+
+#about p {
+    margin-bottom: 10px;
+    line-height: 20px;
 }
