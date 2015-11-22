@@ -13,7 +13,7 @@ $(document).ready(function() {
 		$(".nav").toggle();
 	});
 	adjustMenu();
-})
+});
 
 $(window).bind('resize orientationchange', function() {
 	ww = document.body.clientWidth;
@@ -57,4 +57,4 @@ $(window).load(function(){
     'is_responsive': false,       // Ensure the figure and image change size when in responsive layout. Requires a container to control responsiveness!
     'inherit_styles': false  
 });
-// });
+});
