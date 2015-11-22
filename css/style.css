@@ -1,0 +1,141 @@
+body, nav, ul, li, a  {margin: 0; padding: 0;}
+body {font-family: "Roboto", Helvetica, Arial, sans-serif; }
+a {text-decoration: none;}
+.logo {
+    color: #5B9BD5;
+    font-weight: 900;
+}
+
+.logo span {
+    color: #929292;
+}
+
+.container {
+    padding: 0 15px;
+    border-top: 3px solid #929292;
+    width: 100%;
+    /*max-width: 1100px;*/
+    margin: 0 auto;
+}
+.toggleMenu {
+    display:  none;
+    background: #5B9BD5;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.nav {
+    margin-top: 20px;
+    list-style: none;
+     *zoom: 1;
+     background: #fff;
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+    width: 9em;
+}
+.nav a {
+    padding: 10px 15px;
+    color: #929292;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.nav li {
+    position: relative;
+}
+.nav > li {
+    float: left;
+    border-top: 3px solid #5B9BD5;
+}
+.nav > li > .parent {
+    background-image: url("http://webdesigntutsplus.s3.amazonaws.com/tuts/378_tessa/tessa-lt-dropdowns-21c7868/images/downArrow.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nav > li > a {
+    display: block;
+}
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+}
+.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background-color: white;
+    position: relative;
+    z-index:100;
+    border-top: 1px solid white;
+}
+.nav li li li a {
+    background-color: #5B9BD5;
+    color: white;
+    z-index:200;
+    border-top: 1px solid white;
+}
+
+@media screen and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+    .nav > li {
+        float: none;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+  
+    .nav > li > .parent {
+   background-image: none; 
+  }
+    .nav li .more {
+        background-image: url("http://webdesigntutsplus.s3.amazonaws.com/tuts/378_tessa/tessa-lt-dropdowns-21c7868/images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+        float: right;
+      	width: 20%;
+    		border-left: 1px solid rgba(255,255,255,.3);
+    		padding: 8px 15px;
+    		margin: 2px 5px 2px 0px;
+        cursor: pointer;
+    		z-index: 200;
+        position: relative;
+    }
+  .nav li .more:before {
+  content: "";
+  background: white;
+  color: black;
+  width: 1px;
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -2px;
+  }
+  
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }  
+
+}
