@@ -266,8 +266,11 @@ a {text-decoration: none;}
 }
 
 #about hr {
-    width: 50%;
-    margin-bottom: 15px;
+    width: 100px;
+    height: 2px;
+    margin: 50px auto 15px auto;
+    background-color: #5B9BD5;
+    border-color: #5B9BD5;
 }
 
 #about .mission-heading {

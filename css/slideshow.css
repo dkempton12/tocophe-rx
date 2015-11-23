@@ -60,3 +60,8 @@ body {
     .cycle-overlay { display: none; padding: 4px }
     .cycle-caption { bottom: 4px; right: 4px }
 }
+
+@media screen and (max-width: 768px) {
+    .cycle-slideshow { width: 400px; height: auto;}
+    .cycle-slideshow img {width: 400px; height: auto;}
+}
