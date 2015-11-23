@@ -137,7 +137,7 @@ a {text-decoration: none;}
 .nav a {
     padding: 10px 15px;
     color: #929292;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 500;
@@ -236,7 +236,7 @@ a {text-decoration: none;}
 }
 /* End of Header and Top Navigation */
 .about-btn {
-    display: block;
+    display: none;
     margin: 0 auto;
     background-color: #5B9BD5;
     border-color: #5B9BD5;
@@ -301,7 +301,8 @@ a {text-decoration: none;}
 .footer p {
     padding-top: 50px;
     font-size: 18px;
-    font-weight: 700;
+    letter-spacing: 1px;
+    font-weight: 300;
     color: white;
 }
 
