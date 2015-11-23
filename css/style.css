@@ -270,6 +270,10 @@ a {text-decoration: none;}
     margin-bottom: 15px;
 }
 
+#about .mission-heading {
+    margin-top: 50px;
+}
+
 #about .mission {
     color: black;
     font-size: 20px;
@@ -291,7 +295,7 @@ a {text-decoration: none;}
 /* Footer */
 .footer {
     margin-top: 50px;
-    border-top: 3px solid #929292;
+    border-top: 2px solid navy;
     height: 220px;
     width: 100%;
     background-color: #5B9BD5; 
@@ -314,8 +318,8 @@ a {text-decoration: none;}
 }
 .footer .icons > li {
     border-radius: 1.25rem;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     display: inline-block;
     margin: 1.25rem 5px;
     padding: 0.33rem 0;

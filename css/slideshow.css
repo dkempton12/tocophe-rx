@@ -1,13 +1,19 @@
+body {
+    /*overflow-y:hidden;*/
+}
+
 .cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-.cycle-slideshow { height: 500px; width: 700px; overflow: auto; min-width: 320px; max-width: 700px; margin: 50px auto 0 auto; padding: 0; position: relative;
+.cycle-slideshow { overflow-x:hidden;
+    /*overflow-y:hidden;*/ height: 620px; width: 970px; min-width: 320px; max-width: 1200px; margin: 30px auto 0 auto; padding: 0; position: relative;
     background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
 
  }
 
 .cycle-slideshow img { 
-    position: absolute; overflow: auto; top: 0; margin: 0 auto;
-    width: 700px; min-width: 320px; height: auto; padding: 0; display: block;
+    position: absolute; overflow-x:hidden;
+    /*overflow-y:hidden;*/ top: 0; margin: 0 auto;
+    width: 970px; min-width: 320px; height: 620px; padding: 0; display: block;
 }
 
 .cycle-slideshow img:first-child {
@@ -48,7 +54,9 @@
 }
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-    .cycle-slideshow { width: 200px;}
+    .cycle-slideshow { width: 200px; height: auto;}
+    .cycle-slideshow img {width: 200px; height: auto;}
+    .cycle-prev, .cycle-next {display: none;}
     .cycle-overlay { display: none; padding: 4px }
     .cycle-caption { bottom: 4px; right: 4px }
 }
