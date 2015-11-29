@@ -106,6 +106,10 @@ a {text-decoration: none;}
     width: 100%;
 }*/
 
+header {
+    text-align: center;
+}
+
 .toggleMenu {
     background: #5B9BD5;
     margin-top: 20px;
@@ -132,7 +136,7 @@ a {text-decoration: none;}
 }
 .nav ul {
     list-style: none;
-    width: 9em;
+    /*width: 9em;*/
 }
 .nav a {
     padding: 10px 15px;
@@ -154,7 +158,7 @@ a {text-decoration: none;}
     border-top: 3px solid #5B9BD5;
 }
 .nav > li > .parent {
-    background-image: url("http://webdesigntutsplus.s3.amazonaws.com/tuts/378_tessa/tessa-lt-dropdowns-21c7868/images/downArrow.png");
+   /* background-image: url("http://webdesigntutsplus.s3.amazonaws.com/tuts/378_tessa/tessa-lt-dropdowns-21c7868/images/downArrow.png");*/
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -176,7 +180,7 @@ a {text-decoration: none;}
     display: block;
     background-color: white;
     position: relative;
-    z-index:100;
+    z-index: 100;
     border-top: 1px solid white;
 }
 .nav li li li a {

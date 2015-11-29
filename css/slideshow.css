@@ -4,7 +4,7 @@ body {
 
 .cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-.cycle-slideshow { overflow-x:hidden;
+.cycle-slideshow { /*display: none;*/ overflow-x:hidden;
     /*overflow-y:hidden;*/ height: 620px; width: 970px; min-width: 320px; max-width: 1200px; margin: 30px auto 0 auto; padding: 0; position: relative;
     background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
 
