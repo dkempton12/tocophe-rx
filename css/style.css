@@ -107,12 +107,13 @@ a {text-decoration: none;}
 }*/
 
 header {
+    margin: 0 auto;
     text-align: center;
 }
 
 .toggleMenu {
+    margin: 20px auto 0 auto;
     background: #5B9BD5;
-    margin-top: 20px;
     padding: 10px 15px;
     color: white;
     text-transform: uppercase;
@@ -134,7 +135,7 @@ header {
 .nav:after {
     clear: both;
 }
-.nav ul {
+.nav > ul {
     list-style: none;
     /*width: 9em;*/
 }
@@ -154,9 +155,12 @@ header {
     position: relative;
 }
 .nav > li {
-    float: left;
-    border-top: 3px solid #5B9BD5;
+    display: inline-block;
+    margin: 0 auto;
+    /*float: left;*/
+    /*border-top: 3px solid #5B9BD5;*/
 }
+
 .nav > li > .parent {
    /* background-image: url("http://webdesigntutsplus.s3.amazonaws.com/tuts/378_tessa/tessa-lt-dropdowns-21c7868/images/downArrow.png");*/
     background-repeat: no-repeat;
