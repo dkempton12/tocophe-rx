@@ -288,7 +288,7 @@ header {
 #about .mission {
     color: black;
     font-size: 20px;
-    line-height: 22px;
+    line-height: 26px;
 }
 
 #about .about-us {
@@ -351,7 +351,10 @@ header {
     color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
+    #about {
+        padding: 0 20px;
+    }
     #about h3 {
         font-size: 20px;
     }
