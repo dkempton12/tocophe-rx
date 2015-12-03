@@ -1,0 +1,382 @@
+/*/* CSS Reset */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/* End of CSS Reset */*/
+
+body, nav, ul, li, a  {margin: 0; padding: 0;}
+body {font-family: "Roboto", Helvetica, Arial, sans-serif; }
+
+/* Typography */
+h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #5B9BD5;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #5B9BD5;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+h5 {
+    font-size: 16px;
+    margin-top: 10px;
+    color: white;
+}
+
+p {
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+a {text-decoration: none;}
+
+/* Header and Top Navigation */
+.logo {
+    color: #5B9BD5;
+    font-weight: 900;
+    float: left;
+}
+
+.logo span {
+    color: #929292;
+}
+
+.container {
+    padding: 0 10px;
+    border-top: 3px solid #929292;
+    width: 100%;
+    /*max-width: 1100px;*/
+    margin: 0 auto;
+}
+
+/*header {
+    width: 100%;
+}*/
+
+header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.toggleMenu {
+    margin: 10px auto 0 auto;
+    background: #5B9BD5;
+    padding: 10px 15px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.nav {
+    margin-top: 10px;
+    list-style: none;
+     *zoom: 1;
+     background: #fff;
+}
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+.nav:after {
+    clear: both;
+}
+.nav > ul {
+    list-style: none;
+    /*width: 9em;*/
+}
+.nav a {
+    padding: 15px 15px;
+    color: #929292;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    color: #5B9BD5;
+}
+.nav li {
+    position: relative;
+}
+.nav > li {
+    display: inline-block;
+    margin: 0 auto;
+    /*float: left;*/
+    /*border-top: 3px solid #5B9BD5;*/
+}
+
+.nav > li > .parent {
+   /* background-image: url("http://webdesigntutsplus.s3.amazonaws.com/tuts/378_tessa/tessa-lt-dropdowns-21c7868/images/downArrow.png");*/
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nav > li > a {
+    display: block;
+}
+.nav li  ul {
+    position: absolute;
+    left: -9999px;
+}
+.nav > li.hover > ul {
+    left: 0;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+.nav li li a {
+    display: block;
+    background-color: white;
+    position: relative;
+    z-index: 100;
+    border-top: 1px solid white;
+}
+.nav li li li a {
+    background-color: #5B9BD5;
+    color: white;
+    z-index:200;
+    border-top: 1px solid white;
+}
+
+@media screen and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+    .nav > li {
+        float: none;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+    }
+  
+    .nav > li > .parent {
+   background-image: none; 
+  }
+    .nav li .more {
+        background-image: url("http://webdesigntutsplus.s3.amazonaws.com/tuts/378_tessa/tessa-lt-dropdowns-21c7868/images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+        float: right;
+      	width: 20%;
+    		border-left: 1px solid rgba(255,255,255,.3);
+    		padding: 8px 15px;
+    		margin: 2px 5px 2px 0px;
+        cursor: pointer;
+    		z-index: 200;
+        position: relative;
+    }
+  .nav li .more:before {
+  content: "";
+  background: white;
+  color: black;
+  width: 1px;
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -2px;
+  }
+  
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+   .nav > li.hover > ul , .nav li li.hover ul {
+        position: static;
+    }  
+
+}
+/* End of Header and Top Navigation */
+.top-border {
+    background-color: #5B9BD5;
+    opacity: .2;
+    height: 50px;
+    margin-top: 10px;
+}
+.about-btn {
+    display: none;
+    margin: 0 auto;
+    background-color: #5B9BD5;
+    border-color: #5B9BD5;
+    border-radius: 5px;
+    opacity: 0.8;
+    color: white;
+    font-size: 16px;
+    width: 20%;
+    padding: 10px;
+}
+
+.about-btn:hover {
+    background-color: white;
+    color: #5B9BD5;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+/* About and Mission Statement Section */
+#about h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #5B9BD5;
+}
+
+#about hr {
+    width: 100px;
+    height: 2px;
+    margin: 50px auto 15px auto;
+    background-color: #5B9BD5;
+    border-color: #5B9BD5;
+}
+
+#about .mission-heading {
+    margin-top: 50px;
+}
+
+#about .mission {
+    color: black;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#about .about-us {
+    margin-bottom: 10px;
+    color: #5B9BD5;
+    font-weight: 500;
+}
+
+#about p {
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+/* End of About */
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    border-top: 2px solid navy;
+    height: 220px;
+    width: 100%;
+    background-color: #5B9BD5; 
+    text-align: center;
+}
+
+.footer p {
+    padding-top: 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: white;
+}
+
+.footer hr {
+    margin: 20px auto;
+    width: 10%;
+    height: 2px;
+    background-color: white;
+}
+.footer .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    padding: 0.33rem 0;
+    text-align: center;
+    font-size: 28px;
+}
+.footer .icons > li:hover {
+    cursor: pointer;
+}
+.footer .twitter {
+    color: white;
+}
+
+.footer .facebook {
+    color: #0000FF;
+}
+.footer .linkedin {
+    color: white;
+}
+
+@media screen and (max-width: 720px) {
+    .logo {
+        margin-top: 10px;
+    }
+    #about {
+        padding: 0 20px;
+    }
+    #about h3 {
+        font-size: 20px;
+    }
+
+    #about hr {
+        display: none;
+    }
+    #about .mission {
+        font-size: 16px;
+    }
+}
