@@ -101,10 +101,13 @@ a {text-decoration: none;}
 
 .container {
     padding: 0 10px;
-    border-top: 3px solid #929292;
     width: 100%;
     /*max-width: 1100px;*/
     margin: 0 auto;
+}
+
+.container.content {
+    padding: 0 15px;
 }
 
 /*header {
@@ -315,7 +318,7 @@ header {
 }
 /* End of HOME PAGE SLIDESHOW */
 
-/* Mission Statement Section */
+/* HOME PAGE Mission Statement Section */
 #mission h3 {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -352,12 +355,28 @@ header {
     margin-bottom: 10px;
     line-height: 20px;
 }
-/* End of About */
+/* End of Mission Statement Section of HOME PAGE */
+
+/* ABOUT US Page */
+.about-side-nav {
+    position: fixed;
+    margin-top: 50px;
+    font-size: 10px;
+}
+
+.about-side-nav .nav li {
+    display: block;
+    font-size: 10px;
+}
+
+.about-side-nav .nav a {
+    font-size: 11px;
+}
 
 /* Footer */
 .footer {
     margin-top: 50px;
-    border-top: 2px solid navy;
+    border-top: 3px solid #3482c9;
     height: 220px;
     width: 100%;
     background-color: #5B9BD5; 
@@ -376,7 +395,8 @@ header {
     margin: 20px auto;
     width: 10%;
     height: 2px;
-    background-color: white;
+    color: #2e75b5;
+    border-color: #2e75b5;
 }
 .footer .icons > li {
     border-radius: 1.25rem;
@@ -402,8 +422,10 @@ header {
     color: white;
 }
 
-@media screen and (max-width: 970px) {
-
+@media screen and (max-width: 1400px) {
+    #about .about-side-nav {
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width: 720px) {
