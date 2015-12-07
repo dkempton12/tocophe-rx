@@ -258,15 +258,15 @@ header {
 /* Start of HOME PAGE SLIDESHOW */
 .cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-.cycle-slideshow { /*display: none;*/ overflow-x:hidden;
-    /*overflow-y:hidden;*/ height: auto; width: 100%; min-width: 320px; max-width: 1200px; margin: 50px auto 0 auto; padding: 0; position: relative;
+.cycle-slideshow { display: none; overflow-x:hidden;
+    /*overflow-y:hidden;*/ height: 655px; width: 100%; min-width: 320px; max-width: 1275px; margin: 50px auto 0 auto; padding: 0; position: relative;
     background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
 
  }
 .cycle-slideshow img { 
     position: absolute; overflow-x:hidden;
     /*overflow-y:hidden;*/ top: 0; margin: 0 auto;
-    width: 100%; min-width: 320px; height: auto; padding: 0; display: block;
+    width: 100%; min-width: 320px; max-width: 1275px; height: 655px; padding: 0; display: block;
 }
 
 .cycle-slideshow img:first-child {
@@ -400,6 +400,10 @@ header {
 }
 .footer .linkedin {
     color: white;
+}
+
+@media screen and (max-width: 970px) {
+
 }
 
 @media screen and (max-width: 720px) {
