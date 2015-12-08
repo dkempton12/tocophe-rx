@@ -63,10 +63,23 @@ h3 {
     margin-top: 50px;
 }
 
+h4 {
+    font-size: 22px;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto 24px auto;
+    color: #5B9BD5;
+    /*letter-spacing: 1px;*/
+    text-transform: uppercase;
+}
+
 h5 {
-    font-size: 16px;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto 5px auto;
+    color: #5B9BD5;
+    font-size: 18px;
     margin-top: 10px;
-    color: white;
 }
 
 p {
@@ -349,9 +362,33 @@ header {
 /* End of Mission Statement Section of HOME PAGE */
 
 /* ABOUT US Page */
+#about-us {
+    margin-bottom: 60px;
+}
+
+#scientific-founders {
+    margin-bottom: 40px;
+}
+
+#scientific-founders h4 {
+    font-weight: 500;
+}
+
+#board-of-directors h4 {
+    font-weight: 500;
+}
+
+#scientific-advisory h4 {
+    font-weight: 500;
+}
+
+#board-of-directors {
+    margin-bottom: 40px;
+}
+
 .about-side-nav {
     position: fixed;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 10px;
 }
 
