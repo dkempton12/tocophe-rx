@@ -255,10 +255,14 @@ header {
 
 /* Top Border for ALL pages, except Home Page */
 .top-border {
-    background-color: #5B9BD5;
-    opacity: .2;
-    height: 50px;
-    margin-top: 10px;
+    margin-top: 15px;
+    height: 150px;
+    width: 100%;
+    background: url('../images/embryo.jpg');
+    background-size: 130px 130px;
+    background-position: center;
+    background-repeat: repeat;
+    opacity: 0.88;
 }
 /*End of TOP BORDER */
 
@@ -266,7 +270,7 @@ header {
 .cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .cycle-slideshow { /*display: none;*/ overflow-x:hidden;
-    /*overflow-y:hidden;*/ height: 655px; width: 100%; min-width: 320px; max-width: 1275px; margin: 50px auto 0 auto; padding: 0; position: relative;
+    /*overflow-y:hidden;*/ height: 700px; width: 100%; min-width: 320px; max-width: 1275px; margin: 50px auto 0 auto; padding: 0; position: relative;
     background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
 
  }
@@ -404,28 +408,26 @@ header {
 /* FOOTER for ALL pages */
 .footer {
     margin-top: 50px;
-    border-top: 3px solid #3482c9;
+    border-top: 1px solid #282828;
     height: 220px;
     width: 100%;
     background-color: #5B9BD5; 
     text-align: center;
 }
 
-.footer p {
-    padding-top: 50px;
+.footer h4 {
+    padding-top: 30px;
     font-size: 18px;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 500;
     color: white;
 }
 
-.footer hr {
-    margin: 20px auto;
-    width: 10%;
-    height: 2px;
-    color: #2e75b5;
-    border-color: #2e75b5;
+.footer h5 {
+    padding-top: 20px;
+    color: white;
 }
+
 .footer .icons > li {
     border-radius: 1.25rem;
     width: 2.5rem;
@@ -448,6 +450,19 @@ header {
 }
 .footer .linkedin {
     color: white;
+}
+
+.bottom {
+    height: 70px;
+    width: 100%;
+    background-color: #282828;
+}
+
+.bottom p {
+    padding-top: 32px;
+    font-size: 11px;
+    color: white;
+    text-align: center;
 }
 /* END of FOOTER */
 
