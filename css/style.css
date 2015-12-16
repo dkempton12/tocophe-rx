@@ -405,6 +405,13 @@ header {
     font-size: 11px;
 }
 
+#investors ul {
+    margin: 0 auto;
+    max-width: 600px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
 /* FOOTER for ALL pages */
 .footer {
     margin-top: 50px;
@@ -499,5 +506,19 @@ header {
     }
     .about-side-nav {
         display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cycle-slideshow {
+        display: none;
+    }
+    .main-background {
+        display: block;
+        background: url('../images/gallery-1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: auto;
     }
 }
