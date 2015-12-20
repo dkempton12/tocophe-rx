@@ -69,8 +69,6 @@ h4 {
     min-width: 300px;
     margin: 0 auto 24px auto;
     color: #5B9BD5;
-    /*letter-spacing: 1px;*/
-    text-transform: uppercase;
 }
 
 h5 {
@@ -270,14 +268,29 @@ header {
 .cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .cycle-slideshow { /*display: none;*/ overflow-x:hidden;
-    /*overflow-y:hidden;*/ height: 600px; width: 1100px; min-width: 320px; max-width: 1275px; margin: 50px auto 0 auto; padding: 0; position: relative;
+    /*overflow-y:hidden;*/ height: 596px; width: 100%; min-width: 320px; max-width: 1275px; margin: 50px auto 0 auto; padding: 0; position: relative;
     background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
 
  }
 .cycle-slideshow img { 
     position: absolute; overflow-x:hidden;
     /*overflow-y:hidden;*/ top: 0; margin: 0 auto;
-    width: 1100px; min-width: 320px; max-width: 1275px; height: 600px; padding: 0; display: block;
+    width: 100%; min-width: 320px; max-width: 1275px; height: 596px; padding: 0; display: block;
+}
+
+.cycle-slideshow .gallery-1 {
+    height: 596px;
+    width: 100%;
+}
+
+.cycle-slideshow .gallery-3 {
+    height: 596px;
+    width: 100%;
+}
+
+.cycle-slideshow .gallery-2 {
+    height: 596px;
+    width: 100%;
 }
 
 .cycle-slideshow img:first-child {
@@ -412,11 +425,17 @@ header {
     font-weight: 300;
 }
 
+#investors a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
 /* FOOTER for ALL pages */
 .footer {
     margin-top: 50px;
     border-top: 1px solid #282828;
-    height: 220px;
+    height: 160px;
     width: 100%;
     background-color: #5B9BD5; 
     text-align: center;
@@ -430,32 +449,7 @@ header {
     color: white;
 }
 
-.footer h5 {
-    padding-top: 20px;
-    color: white;
-}
-
-.footer .icons > li {
-    border-radius: 1.25rem;
-    width: 2.5rem;
-    height: 2.5rem;
-    display: inline-block;
-    margin: 1.25rem 5px;
-    padding: 0.33rem 0;
-    text-align: center;
-    font-size: 28px;
-}
-.footer .icons > li:hover {
-    cursor: pointer;
-}
-.footer .twitter {
-    color: white;
-}
-
-.footer .facebook {
-    color: #0000FF;
-}
-.footer .linkedin {
+.footer p {
     color: white;
 }
 
@@ -480,17 +474,58 @@ header {
 }
 
 @media screen and (max-width: 970px) {
+    .cycle-slideshow {
+        height: 420px;
+        width: 100%;
+    }
+    .cycle-slideshow img {
+        height: 420px;
+        width: 100%;
+    }
+
+    .cycle-slideshow .gallery-1 {
+    height: 420px;
+    width: 100%;
+}
+
+.cycle-slideshow .gallery-3 {
+    height: 420px;
+    width: 100%;
+}
+
+.cycle-slideshow .gallery-2 {
+    height: 420px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 720px) {
     .logo {
         margin-top: 10px;
     }
     .cycle-slideshow {
-        height: auto;
-        width: 820px;
+        height: 420px;
+        width: 100%;
     }
     .cycle-slideshow img {
-        height: auto;
-        width: 820px;
+        height: 420px;
+        width: 100%;
     }
+
+    .cycle-slideshow .gallery-1 {
+    height: 420px;
+    width: 100%;
+}
+
+.cycle-slideshow .gallery-3 {
+    height: 420px;
+    width: 100%;
+}
+
+.cycle-slideshow .gallery-2 {
+    height: 420px;
+    width: 100%;
+}
     #about {
         padding: 0 20px;
     }
