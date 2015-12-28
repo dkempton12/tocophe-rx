@@ -387,29 +387,29 @@ header {
 .cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .cycle-slideshow { /*display: none;*/ overflow-x:hidden;
-    /*overflow-y:hidden;*/ height: 610px; width: 100%; min-width: 320px; max-width: 1275px; margin: 50px auto 0 auto; padding: 0; position: relative;
+    /*overflow-y:hidden;*/height: 510px; width: 95%; min-width: 320px; max-width: 1275px; margin: 50px auto 0 auto; padding: 0; position: relative;
     background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
 
  }
 .cycle-slideshow img { 
-    position: absolute; overflow-x:hidden;
+    position: absolute; text-align: center; overflow-x:hidden;
     /*overflow-y:hidden;*/ top: 0; margin: 0 auto;
-    width: 100%; min-width: 320px; max-width: 1275px; height: 610px; padding: 0; display: block;
+    width: 95%; min-width: 320px; max-width: 1275px; height: 510px; padding: 0; display: block;
 }
 
 .cycle-slideshow .gallery-1 {
-    height: 610px;
-    width: 100%;
+    height: 510px;
+    width: 95%;
 }
 
 .cycle-slideshow .gallery-3 {
-    height: 610px;
-    width: 100%;
+    height: 510px;
+    width: 95%;
 }
 
 .cycle-slideshow .gallery-2 {
-    height: 610px;
-    width: 100%;
+    height: 510px;
+    width: 95%;
 }
 
 .cycle-slideshow img:first-child {
