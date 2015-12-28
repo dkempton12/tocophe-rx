@@ -618,7 +618,7 @@ header {
 }
 
 @media screen and (max-width: 720px) {
-   h1, h2, h3, h4, h5, p {
+   h1, h2, h3, h4, h5, a, ul, li, p {
     padding: 0 15px;
    }
     .logo {
@@ -667,14 +667,32 @@ header {
 
 @media screen and (max-width: 480px) {
     .cycle-slideshow {
-        display: none;
+        margin-top: 100px;
+        width: 320px;
+        height: 200px;
+        text-align: left;
     }
-    .main-background {
-        display: block;
-        background: url('../images/gallery-1.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 100%;
-        height: auto;
+
+    .cycle-slideshow img {
+      width: 320px;
+      height: 200px;
     }
+    .cycle-slideshow .gallery-1 {
+    height: 200px;
+    width: 320px;
+}
+
+.cycle-slideshow .gallery-3 {
+    height: 200px;
+    width: 320px;
+}
+
+.cycle-slideshow .gallery-2 {
+    height: 200px;
+    width: 320px;
+}
+
+.cycle-overlay {
+  text-align: left;
+}
 }
