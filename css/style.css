@@ -42,7 +42,7 @@ a:hover, a:active { text-decoration: none;}
 }
 
 .nav-collapse {
-  background-color: #003399;
+  background-color: #fff;
 }
 
 .js .nav-collapse {
@@ -586,6 +586,30 @@ header {
 /* END of FOOTER */
 
 @media screen and (max-width: 1400px) {
+    .cycle-slideshow {
+        height: 580px;
+        width: 100%;
+    }
+    .cycle-slideshow img {
+        height: 580px;
+        width: 100%;
+    }
+
+    .cycle-slideshow .gallery-1 {
+      height: 580px;
+      width: 100%;
+}
+
+.cycle-slideshow .gallery-3 {
+    height: 580px;
+    width: 100%;
+}
+
+.cycle-slideshow .gallery-2 {
+    height: 580px;
+    width: 100%;
+}
+
     #about .about-side-nav {
         visibility: hidden;
     }
@@ -621,9 +645,6 @@ header {
    h1, h2, h3, h4, h5, a, ul, li, p {
     padding: 0 15px;
    }
-    .logo {
-        margin-top: 10px;
-    }
     .cycle-slideshow {
         height: 420px;
         width: 100%;
@@ -666,6 +687,10 @@ header {
 }
 
 @media screen and (max-width: 480px) {
+    .logo {
+      line-height: 55px;
+    }
+
     .cycle-slideshow {
         margin-top: 100px;
         width: 320px;
