@@ -103,7 +103,10 @@ h1 {
 }
 
 h2 {
+    margin-top: 30px;
     font-size: 30px;
+    text-align: center;
+    color: #5B9BD5;
 }
 
 h3 {
@@ -132,6 +135,7 @@ h5 {
     color: #5B9BD5;
     font-size: 18px;
     margin-top: 10px;
+    text-align: center;
 }
 
 p {
@@ -153,7 +157,7 @@ a {text-decoration: none;}
 header {
   background: #fff;
   position: fixed;
-  z-index: 9999;
+  z-index: 9998;
   height: 54px;
   width: 100%;
   left: 0;
@@ -386,8 +390,8 @@ header {
 /* Start of HOME PAGE SLIDESHOW */
 .cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-.cycle-slideshow { /*display: none;*/ overflow-x:hidden;
-    /*overflow-y:hidden;*/height: 510px; width: 95%; min-width: 320px; max-width: 1275px; margin: 50px auto 0 auto; padding: 0; position: relative;
+.cycle-slideshow {overflow-x:hidden;
+    height: 510px; width: 95%; min-width: 320px; max-width: 1275px; margin: 50px auto 0 auto; padding: 0; position: relative;
     background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
 
  }
@@ -431,7 +435,7 @@ header {
     position: absolute; top: 0; bottom: 5; width: 33%; height: auto; z-index: 200;
     background: #5B9BD5; color: white; padding: 8px; opacity: .7;
 }
-.cycle-prev, .cycle-next {position: absolute; top: 0; width: 300px; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
+.cycle-prev, .cycle-next {display: none; position: absolute; top: 0; width: 300px; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
 .cycle-prev { left: 0;  background: url(http://malsup.github.com/images/left.png) 50% 50% no-repeat;}
 .cycle-next { right: 0; background: url(http://malsup.github.com/images/right.png) 50% 50% no-repeat;}
 .cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
@@ -524,8 +528,12 @@ header {
 
 .about-side-nav {
     position: fixed;
-    margin-top: 30px;
+    margin-top: 120px;
+    margin-left: 20px;
     font-size: 10px;
+    line-height: 23px;
+    z-index: 9999;
+    overflow: hidden;
 }
 
 .about-side-nav .nav li {
@@ -534,13 +542,19 @@ header {
 }
 
 .about-side-nav .nav a {
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f;
+}
+
+.about-side-nav .nav a:hover {
+  color: #929292;
 }
 
 #investors ul {
     margin: 0 auto;
     max-width: 600px;
-    line-height: 30px;
+    line-height: 40px;
     font-weight: 300;
 }
 
@@ -553,18 +567,23 @@ header {
 /* FOOTER for ALL pages */
 .footer {
     margin-top: 50px;
-    border-top: 1px solid #282828;
+    border-top: 1px solid #929292;
     height: 160px;
     width: 100%;
     background-color: #5B9BD5; 
     text-align: center;
 }
 
-.footer h4 {
-    padding-top: 30px;
-    font-size: 18px;
+.footer h2 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 27px;
     font-weight: 500;
     color: white;
+}
+
+.footer .rx {
+  color: #D1D1D1;
 }
 
 .footer p {
