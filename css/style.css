@@ -135,7 +135,6 @@ h5 {
     color: #5B9BD5;
     font-size: 18px;
     margin-top: 10px;
-    text-align: center;
 }
 
 p {
@@ -156,6 +155,7 @@ a {text-decoration: none;}
 --------------------------------------------- */
 header {
   background: #fff;
+  border-bottom: 1px solid #929292;
   position: fixed;
   z-index: 9998;
   height: 54px;
@@ -544,13 +544,34 @@ header {
 .about-side-nav .nav a {
     font-size: 12px;
     font-weight: 700;
-    color: #f;
+    color: #5B9BD5;
 }
 
 .about-side-nav .nav a:hover {
   color: #929292;
 }
 
+/* SCIENCE PAGE */
+#biology img {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #929292;
+  margin-top: 30px;
+  width: 300px;
+  height: auto;
+}
+
+#structural-biology img {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #929292;
+  margin-top: 30px;
+  width: 300px;
+  height: auto;
+}
+
+
+/* INVESTMENT PAGE */
 #investors ul {
     margin: 0 auto;
     max-width: 600px;
