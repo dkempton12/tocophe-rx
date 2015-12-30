@@ -583,6 +583,23 @@ header {
     color: black;
 }
 
+.news h3 {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.news h4 {
+  margin-top: 55px;
+}
+
+.news h5 {
+  padding-bottom: 15px;
+}
+
+.news .article-title {
+  font-weight: 700;
+}
+
 .contact-us {
   height: 250px;
 }
@@ -702,6 +719,7 @@ header {
   #map {
       height: 175px;
       width: 275px;
+      right: 50px;
     }
 }
 
@@ -747,6 +765,11 @@ header {
     }
     .about-side-nav {
         display: none;
+    }
+    #map {
+      height: 175px;
+      width: 250px;
+      right: 10px;
     }
 }
 
@@ -794,8 +817,7 @@ header {
   padding-right: 100px;
 }
   #map {
-      height: 125px;
-      width: 225px;
+      display: none;
     }
 }
 }
