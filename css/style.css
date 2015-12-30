@@ -569,8 +569,12 @@ header {
     margin: 0 auto;
     list-style-type: none;
     max-width: 600px;
-    line-height: 40px;
+    line-height: 22px;
     font-weight: 300;
+}
+
+#investors li {
+  padding-bottom: 10px;
 }
 
 #investors a {
@@ -779,6 +783,11 @@ header {
 
 .cycle-overlay {
   text-align: left;
+}
+
+#investors li {
+  line-height: 22px;
+  padding-bottom: 10px;
 }
 
 .contact-us {
