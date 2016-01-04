@@ -547,6 +547,7 @@ header {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
+  padding-bottom: 50px;
   width: 300px;
   height: auto;
 }
@@ -555,6 +556,7 @@ header {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
+  padding-bottom: 30px;
   width: 300px;
   height: auto;
 }
@@ -639,7 +641,8 @@ header {
 }
 
 .contact-us {
-  height: 250px;
+  height: 300px;
+  margin: 0 auto;
 }
 
 .contact-us .address {
@@ -653,6 +656,14 @@ header {
 .contact-us p {
   font-size: 16px;
   line-height: 12px;
+}
+
+.contact-us .contact-name {
+  padding-top: 20px;
+}
+
+.contact-us a {
+  color: white;
 }
 
 #map {
@@ -691,6 +702,11 @@ header {
 .footer p {
     color: white;
     line-height: 8px;
+}
+
+.footer .e-mail {
+  text-decoration: none;
+  color: white;
 }
 
 .bottom {
