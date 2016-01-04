@@ -584,6 +584,24 @@ header {
   color: #929292;
 }
 
+/* PIPELINE PAGE */
+.pipeline h3 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pipeline img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 800px;
+}
+
+.pipeline p {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
 /* INVESTMENT PAGE */
 #investors ul {
     margin: 0 auto;
@@ -629,10 +647,16 @@ header {
 }
 
 .contact-us .address h2 {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contact-us p {
+  font-size: 16px;
+  line-height: 12px;
 }
 
 #map {
+  display: none;
   position: absolute;
   top: 220px;
   right: 150px;
@@ -796,6 +820,11 @@ header {
         display: none;
     }
 
+    .pipeline img {
+  height: auto;
+  width: 500px;
+}
+
     #map {
       height: 175px;
       width: 250px;
@@ -838,6 +867,15 @@ header {
   top: 130px;
   font-size: 16px;
   text-align: left;
+}
+
+.pipeline img {
+  height: auto;
+  width: 320px;
+}
+
+.pipeline p {
+  font-size: 14px;
 }
 
 #investors li {
