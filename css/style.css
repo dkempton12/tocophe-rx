@@ -808,6 +808,11 @@ header {
    h1, h2, h3, h4, h5, li, p {
     padding: 0 15px;
    }
+
+    .btn {
+      width: 33%;
+    }
+    
     .cycle-slideshow {
         height: 320px;
         width: 100%;
