@@ -698,18 +698,53 @@ header {
 .footer {
     margin-top: 50px;
     border-top: 1px solid #929292;
-    height: 160px;
+    height: 240px;
     width: 100%;
     background-color: #5B9BD5; 
     text-align: center;
 }
 
+.footer .footer-links {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+  list-style-type: none;
+  clear: right;
+}
+
+.footer .footer-links > li {
+  float: left;
+  width: 33%;
+}
+
+.footer .fa {
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+
+.footer .fa.fa-globe {
+  color: #66CD00;
+}
+
+.footer .fa.fa-envelope {
+  color: #FFFACD;
+}
+
+.footer .fa.fa-phone {
+  color: #282828;
+}
+
 .footer h2 {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 27px;
     font-weight: 500;
     color: white;
+}
+
+.footer h4 {
+  color: white;
+  font-size: 16px;
 }
 
 .footer .rx {
@@ -717,13 +752,32 @@ header {
 }
 
 .footer p {
+    font-weight: 500;
+    font-size: 14px;
     color: white;
     line-height: 8px;
 }
 
 .footer .e-mail {
   text-decoration: none;
+  font-size: 14px;
   color: white;
+}
+
+.footer .bottom-nav {
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer .bottom-nav > li {
+  display: inline;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer .bottom-nav > li:hover {
+  color: #282828;
 }
 
 .bottom {
@@ -812,7 +866,7 @@ header {
     .btn {
       width: 33%;
     }
-    
+
     .cycle-slideshow {
         height: 320px;
         width: 100%;
