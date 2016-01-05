@@ -870,6 +870,10 @@ header {
       line-height: 55px;
     }
 
+    .btn {
+      width: 33%;
+    }
+
     .cycle-slideshow {
         margin-top: 100px;
         width: 320px;
@@ -901,6 +905,16 @@ header {
   font-size: 16px;
   text-align: left;
   /*text-shadow: -1px 0 #929292, 0 1px #929292, 1px 0 #929292, 0 -1px #929292;*/
+}
+
+#biology img {
+  height: auto;
+  width: 300px;
+}
+
+#structural-biology img {
+  height: auto;
+  width: 300px;
 }
 
 .pipeline img {
