@@ -324,15 +324,16 @@ header {
 
 .nav-collapse a {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+  width: 100%;
   border-top: 1px solid white;
+  padding: 0.7em 1em;
+  float: left;
+  background: #fff;
   font-size: 12px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: #fff;
-  padding: 0.7em 1em;
   color: #929292;
-  width: 100%;
-  float: left;
 }
 
 .nav-collapse a:hover {
