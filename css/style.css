@@ -189,6 +189,14 @@ a {text-decoration: none;}
 
 li {font-size: 14px;}
 
+hr {
+    width: 100px;
+    height: 2px;
+    margin: 50px auto 15px auto;
+    background-color: #5B9BD5;
+    border-color: #5B9BD5;
+}
+
 .btn {
   display: block;
   margin: 50px auto 0 auto;
@@ -518,14 +526,6 @@ header {
     color: #5B9BD5;
 }
 
-#mission hr {
-    width: 100px;
-    height: 2px;
-    margin: 50px auto 15px auto;
-    background-color: #5B9BD5;
-    border-color: #5B9BD5;
-}
-
 #mission .mission-heading {
     margin-top: 50px;
 }
@@ -756,33 +756,35 @@ header {
 /* FOOTER for ALL pages */
 .footer {
     margin-top: 50px;
+    padding-bottom: 30px;
     border-top: 1px solid #929292;
-    height: 240px;
     width: 100%;
     background-color: #5B9BD5; 
     text-align: center;
 }
 
-.footer .footer-links {
-  margin: 0 auto;
-  padding-bottom: 50px;
-  text-align: center;
-  list-style-type: none;
-  clear: right;
+.col-group > div {
+  padding: 0.75em 0.75em 0;
 }
 
-.footer .footer-links > li {
-  float: left;
-  width: 33%;
+@media screen and (min-width: 75em) {
+  .col-group {
+    overflow: hidden;
+  }
+  .col-group > div {
+    float: left;
+    width: 31.333%;
+  }
 }
 
 .footer .fa {
   padding-bottom: 15px;
   font-size: 24px;
+  color: white;
 }
 
 .footer .fa.fa-globe {
-  color: #66CD00;
+  color: #C5E3BF;
 }
 
 .footer .fa.fa-envelope {
@@ -801,9 +803,11 @@ header {
     color: white;
 }
 
-.footer h4 {
+.footer h5 {
+  padding-bottom: 25px;
   color: white;
-  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
 }
 
 .footer .rx {
@@ -815,12 +819,6 @@ header {
     font-size: 14px;
     color: white;
     line-height: 8px;
-}
-
-.footer .e-mail {
-  text-decoration: none;
-  font-size: 14px;
-  color: white;
 }
 
 .footer .bottom-nav {
@@ -848,7 +846,7 @@ header {
 .bottom p {
     padding-top: 32px;
     font-size: 11px;
-    color: white;
+    color: #929292;
     text-align: center;
 }
 /* END of FOOTER */

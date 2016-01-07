@@ -49,14 +49,31 @@
 </div>
 
 <footer class="footer">
-	<span class="copyright">
+  <span class="copyright">
         <h2>Tocophe<span class="rx">Rx</span></h2>
+        <h5>Innovative Medical Solution<br> for Treatment of Infertility</h5>
     </span>
-    <p>1500 District Ave, Suite 1087</p>
-    <p>Burlington, MA, 08102, USA</p>
-    <a class="e-mail" href="mailto:info@tocopherx.com">info@tocopherx.com</a>
-    <p>Phone: 781-333-4088</p>
+  <div id="pattern" class="pattern">
+    <div class="col-group">
+      <div>
+        <i class="fa fa-globe"></i>
+        <p>1500 District Ave, Suite 1087</p>
+        <p>Burlington, MA, 08102, USA</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p>E-Mail:
+        <p>info@tocopherx.com</p>
+      </div>
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>Phone:
+        <p>781-333-4088</p>
+      </div>
+  </div>
+</div>
 </footer>
+
 <div class="bottom">
 <p>&copy; 2015 TocopheRx</p>
 </div>
@@ -65,17 +82,5 @@
 <script type="text/javascript" src="js/responsive-nav.js"></script>
 <script src="js/fixed-responsive-nav.js"></script>	
 <script src="https://maps.googleapis.com/maps/api/js"></script>
-  <script>
-      function initialize() {
-        var mapCanvas = document.getElementById('map');
-        var mapOptions = {
-          center: new google.maps.LatLng(42.4129157, -71.4149267),
-          zoom: 8,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
 </body>
 </html>
