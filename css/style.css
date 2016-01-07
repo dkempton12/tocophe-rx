@@ -420,7 +420,7 @@ header {
 
 .container {
     padding: 0 10px;
-    width: 100%;
+   /* width: 100%;*/
     margin: 0 auto;
 }
 
@@ -428,7 +428,6 @@ header {
 .top-border {
     margin-top: 40px;
     height: 150px;
-    width: 100%;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -759,7 +758,6 @@ header {
     margin-top: 50px;
     padding-bottom: 30px;
     border-top: 1px solid #929292;
-    width: 100%;
     background-color: #5B9BD5; 
     text-align: center;
 }
@@ -840,7 +838,6 @@ header {
 
 .bottom {
     height: 70px;
-    width: 100%;
     background-color: #282828;
 }
 
