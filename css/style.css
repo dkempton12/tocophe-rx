@@ -426,8 +426,9 @@ header {
 
 /* Top Border for ALL pages, except Home Page */
 .top-border {
-    margin-top: 40px;
+    position: fixed;
     height: 150px;
+    width: 100%;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -621,20 +622,26 @@ header {
 }
 #biology img {
   display: block;
-  margin: 0 auto;
   margin-top: 30px;
   padding-bottom: 50px;
+  text-align: center;
   width: 425px;
   height: auto;
 }
 
 #structural-biology img {
   display: block;
-  margin: 0 auto;
+  text-align: center;
   margin-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   width: 425px;
   height: auto;
+}
+
+#structural-biology .citation {
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .science-side-nav {
