@@ -169,10 +169,18 @@ h4 {
 h5 {
     max-width: 600px;
     min-width: 300px;
-    margin: 0 auto 5px auto;
+    margin: 0 auto 2px auto;
     color: #5B9BD5;
     font-size: 18px;
     margin-top: 10px;
+}
+
+h6 {
+  max-width: 600px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  color: #929292;
 }
 
 p {
@@ -220,7 +228,6 @@ hr {
 --------------------------------------------- */
 header {
   background: #fff;
-  border-bottom: 1px solid #929292;
   position: fixed;
   z-index: 9998;
   height: 54px;
@@ -426,9 +433,8 @@ header {
 
 /* Top Border for ALL pages, except Home Page */
 .top-border {
-    position: fixed;
+    margin-top: 40px;
     height: 150px;
-    width: 100%;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -558,17 +564,7 @@ header {
     margin-bottom: 40px;
 }
 
-#scientific-founders h4 {
-    font-weight: 500;
-    color: #282828;
-}
-
-#board-of-directors h4 {
-    font-weight: 500;
-    color: #282828;
-}
-
-#scientific-advisory h4 {
+.about-header {
     font-weight: 500;
     color: #282828;
 }
@@ -622,6 +618,7 @@ header {
 }
 #biology img {
   display: block;
+  margin: 0 auto;
   margin-top: 30px;
   padding-bottom: 50px;
   text-align: center;
@@ -631,7 +628,7 @@ header {
 
 #structural-biology img {
   display: block;
-  text-align: center;
+  margin: 0 auto;
   margin-top: 30px;
   padding-bottom: 10px;
   width: 425px;
