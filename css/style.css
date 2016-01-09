@@ -569,10 +569,6 @@ header {
     color: #282828;
 }
 
-#board-of-directors {
-    margin-bottom: 40px;
-}
-
 .about-side-nav {
     position: fixed;
     margin-top: 120px;
@@ -614,6 +610,50 @@ header {
 }
 
 #scientific-founders .about-people-content {
+  float: right;
+  margin-right: 90px;
+  margin-bottom: 25px;
+  width: 400px;
+}
+
+#board-of-directors {
+  margin: 0 auto;
+  width: 650px;
+  height: 700px;
+}
+
+#scientific-advisory {
+  margin: 0 auto;
+  width: 650px;
+  height: 1075px;
+}
+
+#board-of-directors .about-image img {
+  height: auto;
+  width: 80px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  float: left;
+  clear: left;
+}
+
+#board-of-directors .about-people-content {
+  float: right;
+  margin-right: 90px;
+  margin-bottom: 25px;
+  width: 400px;
+}
+
+#scientific-advisory .about-image img {
+  height: auto;
+  width: 80px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  float: left;
+  clear: left;
+}
+
+#scientific-advisory .about-people-content {
   float: right;
   margin-right: 90px;
   margin-bottom: 25px;
