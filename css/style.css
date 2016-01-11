@@ -236,15 +236,11 @@ header {
   top: 0;
 }
 
-.logo {
-    padding: 0 20px;
+.logo img {
+    padding: 3px 10px 0 10px;
     float: left;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    text-decoration: none;
-    color: #5B9BD5;
-    font-size: 30px;
-    font-weight: 900;
-    line-height: 55px;
+    height: auto;
+    width: 250px;
 }
 
 .logo span {
@@ -423,13 +419,6 @@ header {
 }
 
 /* TOP NAVIGATION */
-
-
-.container {
-    padding: 0 10px;
-   /* width: 100%;*/
-    margin: 0 auto;
-}
 
 /* Top Border for ALL pages, except Home Page */
 .top-border {
@@ -757,6 +746,7 @@ header {
 
 #investors li {
   padding-bottom: 10px;
+  font-size: 16px;
 }
 
 #investors a {
@@ -884,6 +874,11 @@ header {
     font-size: 14px;
     color: white;
     line-height: 8px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
 }
 
 .footer .bottom-nav {
