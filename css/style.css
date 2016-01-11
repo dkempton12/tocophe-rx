@@ -132,65 +132,54 @@ body {
   background: #fff;
   font: normal 100%/1.4 sans-serif;
 }
-/* Typography */
+
 h1 {
     margin: 0;
     font-size: 36px;
     color: #5B9BD5;
 }
 
-h2 {
-    margin: 0 auto;
+h2, h3, h4, h5, h6, p {
     max-width: 600px;
     min-width: 300px;
+}
+
+h2 {
+    margin: 0 auto;
     font-size: 30px;
     color: #5B9BD5;
 }
 
 h3 {
+    margin: 50px auto 15px auto;
     font-size: 26px;
     letter-spacing: 1px;
     color: #5B9BD5;
-    max-width: 600px;
-    min-width: 300px;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    margin-top: 50px;
 }
 
 h4 {
     font-size: 22px;
-    max-width: 600px;
-    min-width: 300px;
     margin: 0 auto 24px auto;
     color: #5B9BD5;
 }
 
 h5 {
-    max-width: 600px;
-    min-width: 300px;
-    margin: 0 auto 2px auto;
-    color: #5B9BD5;
+    margin: 10px auto 2px auto;
     font-size: 18px;
-    margin-top: 10px;
+    color: #5B9BD5;
 }
 
 h6 {
-  max-width: 600px;
-  min-width: 300px;
   margin: 0 auto;
   padding-bottom: 10px;
   color: #929292;
 }
 
 p {
+    margin: 0 auto 10px auto;
     font-size: 14px;
     color: black;
     font-weight: 300;
-    max-width: 600px;
-    min-width: 300px;
-    margin: 0 auto;
-    margin-bottom: 10px;
 }
 
 a {text-decoration: none;}
@@ -209,12 +198,12 @@ hr {
   display: block;
   margin: 50px auto 0 auto;
   padding: 10px 10px;
-  width: 20%;
-   background-color: white;
   border: 1px solid #5B9BD6;
+  width: 20%;
+  background-color: white;
+  font-size: 18px;
   text-align: center;
   color: #5B9BD6;
-  font-size: 18px;
 }
 
 .btn:hover {
@@ -422,8 +411,8 @@ header {
 
 /* Top Border for ALL pages, except Home Page */
 .top-border {
-    margin-top: 40px;
     height: 150px;
+    margin-top: 40px;
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
@@ -527,15 +516,15 @@ header {
 }
 
 #mission .mission-p {
-    color: black;
     font-size: 20px;
+    color: black;
     line-height: 26px;
 }
 
 #mission .about-us {
     margin-bottom: 10px;
-    color: #5B9BD5;
     font-weight: 500;
+    color: #5B9BD5;
 }
 
 #mission p {
@@ -546,16 +535,14 @@ header {
 
 /* ABOUT US Page */
 .about-header {
-    margin-top: 35px;
-    margin-bottom: 15px;
+    margin: 35px auto 15px auto;
     font-weight: 500;
     color: #282828;
 }
 
 .about-side-nav {
     position: fixed;
-    margin-top: 120px;
-    margin-left: 20px;
+    margin: 120px 0 0 20px;
     font-size: 14px;
     line-height: 35px;
     z-index: 9999;
@@ -583,10 +570,10 @@ header {
 }
 
 #biology ul {
-  max-width: 400px;
-  min-width: 300px;
   margin: 0 auto;
   padding-top: 15px;
+  max-width: 400px;
+  min-width: 300px;
   font-size: 14px;
   font-weight: 300;
 }
@@ -596,21 +583,19 @@ header {
 }
 #biology img {
   display: block;
-  margin: 0 auto;
-  margin-top: 30px;
+  height: auto;
+  width: 425px;
+  margin: 30px auto 0 auto;
   padding-bottom: 50px;
   text-align: center;
-  width: 425px;
-  height: auto;
 }
 
 #structural-biology img {
   display: block;
-  margin: 0 auto;
-  margin-top: 30px;
-  padding-bottom: 10px;
-  width: 425px;
   height: auto;
+  width: 425px;
+  margin: 30px auto 0 auto;
+  padding-bottom: 10px;
 }
 
 #structural-biology .citation {
@@ -621,8 +606,7 @@ header {
 
 .science-side-nav {
     position: fixed;
-    margin-top: 120px;
-    margin-left: 20px;
+    margin: 120px 0 0 20px;
     font-size: 14px;
     line-height: 35px;
     z-index: 9999;
@@ -652,9 +636,9 @@ header {
 
 .pipeline img {
   display: block;
-  margin: 0 auto;
   height: auto;
   width: 800px;
+  margin: 0 auto;
 }
 
 .pipeline p {
@@ -665,8 +649,8 @@ header {
 /* INVESTMENT PAGE */
 #investors ul {
     margin: 0 auto;
-    list-style-type: none;
     max-width: 600px;
+    list-style-type: none;
     line-height: 22px;
     font-weight: 300;
 }
@@ -706,8 +690,8 @@ header {
 }
 
 #contact-us hr {
-  width: 50px;
   height: 1px;
+  width: 50px;
   margin: 0 auto 44px auto;
   background-color: #5B9BD5;
   border-color: #5B9BD5;
@@ -729,8 +713,8 @@ header {
 
 #map {
   display: block;
-  width: 400px;
   height: 300px;
+  width: 400px;
   max-width: 600px;
   min-width: 300px;
   margin: 44px auto 50px auto;
@@ -779,11 +763,10 @@ header {
 }
 
 .footer h2 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 27px;
-    font-weight: 500;
-    color: white;
+  padding: 20px 0 10px 0;
+  font-size: 27px;
+  font-weight: 500;
+  color: white;
 }
 
 .footer h5 {
@@ -798,10 +781,10 @@ header {
 }
 
 .footer p {
-    font-weight: 500;
-    font-size: 14px;
-    color: white;
-    line-height: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  line-height: 8px;
 }
 
 .footer a {
@@ -826,31 +809,31 @@ header {
 }
 
 .bottom {
-    height: 70px;
-    background-color: #282828;
+  height: 70px;
+  background-color: #282828;
 }
 
 .bottom p {
-    padding-top: 32px;
-    font-size: 11px;
-    color: #929292;
-    text-align: center;
+  padding-top: 32px;
+  font-size: 11px;
+  color: #929292;
+  text-align: center;
 }
 /* END of FOOTER */
 
 @media screen and (max-width: 1400px) {
-    .cycle-slideshow {
-        height: 580px;
-        width: 100%;
-    }
-    .cycle-slideshow img {
-        height: 580px;
-        width: 100%;
-    }
+.cycle-slideshow {
+    height: 580px;
+    width: 100%;
+}
+.cycle-slideshow img {
+    height: 580px;
+    width: 100%;
+}
 
-    .cycle-slideshow .gallery-1 {
-      height: 580px;
-      width: 100%;
+.cycle-slideshow .gallery-1 {
+    height: 580px;
+    width: 100%;
 }
 
 .cycle-slideshow .gallery-3 {
@@ -863,22 +846,22 @@ header {
     width: 100%;
 }
 
-    #about .about-side-nav {
+#about .about-side-nav {
         visibility: hidden;
     }
 }
 
 @media screen and (max-width: 970px) {
-    .cycle-slideshow {
-        height: 420px;
-        width: 100%;
-    }
-    .cycle-slideshow img {
-        height: 420px;
-        width: 100%;
-    }
+.cycle-slideshow {
+    height: 420px;
+    width: 100%;
+}
+.cycle-slideshow img {
+    height: 420px;
+    width: 100%;
+}
 
-    .cycle-slideshow .gallery-1 {
+.cycle-slideshow .gallery-1 {
     height: 420px;
     width: 100%;
 }
@@ -893,33 +876,34 @@ header {
     width: 100%;
 }
 .science-side-nav {
-      display: none;
-    }
+    display: none;
+}
 
-    #map {
-  margin: 25px auto 30px auto;
+#map {
+    margin: 25px auto 30px auto;
 }
 }
 
 @media screen and (max-width: 720px) {
-   h1, h2, h3, h4, h5, li, p {
+h1, h2, h3, h4, h5, li, p {
     padding: 0 15px;
-   }
+}
 
-    .btn {
-      width: 33%;
-    }
+.btn {
+    width: 33%;
+}
 
-    .cycle-slideshow {
-        height: 320px;
-        width: 100%;
-    }
-    .cycle-slideshow img {
-        height: 320px;
-        width: 100%;
-    }
+.cycle-slideshow {
+    height: 320px;
+    width: 100%;
+}
+    
+.cycle-slideshow img {
+    height: 320px;
+    width: 100%;
+}
 
-    .cycle-slideshow .gallery-1 {
+.cycle-slideshow .gallery-1 {
     height: 320px;
     width: 100%;
 }
@@ -935,57 +919,59 @@ header {
 }
 
 .cycle-overlay {
-  font-size: 22px;
-  left: 0;
+    font-size: 22px;
+    left: 0;
 }
-    #about {
-        padding: 0 20px;
-    }
-    #about h3 {
-        font-size: 20px;
-    }
 
-    #about hr {
-        display: none;
-    }
-    #about .mission {
-        font-size: 16px;
-    }
-    .about-side-nav {
-        display: none;
-    }
+#about {
+    padding: 0 20px;
+}
+#about h3 {
+    font-size: 20px;
+}
 
-    .pipeline img {
-  height: auto;
-  width: 500px;
+#about hr {
+    display: none;
+}
+#about .mission {
+    font-size: 16px;
+}
+.about-side-nav {
+    display: none;
+}
+
+.pipeline img {
+    height: auto;
+    width: 500px;
 }
 
 #map {
-  margin: 25px auto 30px auto;
+    margin: 25px auto 30px auto;
 }
 }
 
 @media screen and (max-width: 480px) {
-    .logo {
-      line-height: 55px;
-    }
+.logo {
+    line-height: 55px;
+}
 
-    .btn {
-      width: 33%;
-    }
+.btn {
+    width: 33%;
+  }
 
-    .cycle-slideshow {
-        margin-top: 100px;
-        width: 320px;
-        height: 200px;
-        text-align: left;
-    }
+.cycle-slideshow {
+    margin-top: 100px;
+    width: 320px;
+    height: 200px;
+    text-align: left;
+}
 
-    .cycle-slideshow img {
-      width: 320px;
-      height: 200px;
-    }
-    .cycle-slideshow .gallery-1 {
+.cycle-slideshow img {
+    width: 320px;
+    height: 200px;
+}
+
+.cycle-slideshow .gallery-1 {
     height: 200px;
     width: 320px;
 }
