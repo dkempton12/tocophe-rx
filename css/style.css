@@ -199,7 +199,7 @@ li {font-size: 14px;}
 
 hr {
     width: 100px;
-    height: 2px;
+    height: 1px;
     margin: 50px auto 15px auto;
     background-color: #5B9BD5;
     border-color: #5B9BD5;
@@ -545,15 +545,9 @@ header {
 /* End of Mission Statement Section of HOME PAGE */
 
 /* ABOUT US Page */
-#about-us {
-    margin-bottom: 60px;
-}
-
-#scientific-founders {
-    margin-bottom: 40px;
-}
-
 .about-header {
+    margin-top: 35px;
+    margin-bottom: 15px;
     font-weight: 500;
     color: #282828;
 }
@@ -562,8 +556,8 @@ header {
     position: fixed;
     margin-top: 120px;
     margin-left: 20px;
-    font-size: 10px;
-    line-height: 23px;
+    font-size: 14px;
+    line-height: 35px;
     z-index: 9999;
     overflow: hidden;
 }
@@ -582,73 +576,6 @@ header {
 .about-side-nav .nav a:hover {
   color: #929292;
 }
-
-#scientific-founders {
-    margin: 0 auto;
-    width: 650px;
-    height: 700px;
-}
-
-#scientific-founders .about-image img {
-  height: auto;
-  width: 80px;
-  margin-left: 30px;
-  margin-bottom: 40px;
-  float: left;
-  clear: left;
-}
-
-#scientific-founders .about-people-content {
-  float: right;
-  margin-right: 90px;
-  margin-bottom: 25px;
-  width: 400px;
-}
-
-#board-of-directors {
-  margin: 0 auto;
-  width: 650px;
-  height: 700px;
-}
-
-#scientific-advisory {
-  margin: 0 auto;
-  width: 650px;
-  height: 1075px;
-}
-
-#board-of-directors .about-image img {
-  height: auto;
-  width: 80px;
-  margin-left: 30px;
-  margin-bottom: 40px;
-  float: left;
-  clear: left;
-}
-
-#board-of-directors .about-people-content {
-  float: right;
-  margin-right: 90px;
-  margin-bottom: 25px;
-  width: 400px;
-}
-
-#scientific-advisory .about-image img {
-  height: auto;
-  width: 80px;
-  margin-left: 30px;
-  margin-bottom: 40px;
-  float: left;
-  clear: left;
-}
-
-#scientific-advisory .about-people-content {
-  float: right;
-  margin-right: 90px;
-  margin-bottom: 25px;
-  width: 400px;
-}
-
 /* SCIENCE PAGE */
 #biology h5 {
   color: #929292;
@@ -696,8 +623,8 @@ header {
     position: fixed;
     margin-top: 120px;
     margin-left: 20px;
-    font-size: 10px;
-    line-height: 23px;
+    font-size: 14px;
+    line-height: 35px;
     z-index: 9999;
     overflow: hidden;
 }
@@ -772,41 +699,42 @@ header {
   font-weight: 700;
 }
 
-.contact-us {
-  height: 300px;
-  margin: 0 auto;
-}
-
-.contact-us .address {
+#contact-us h2 {
   margin-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
-.contact-us .address h2 {
-  margin-bottom: 50px;
+#contact-us hr {
+  width: 50px;
+  height: 1px;
+  margin: 0 auto 44px auto;
+  background-color: #5B9BD5;
+  border-color: #5B9BD5;
 }
 
-.contact-us p {
-  font-size: 16px;
+#contact-us .col-group {
+  margin-left: 15px;
+}
+
+#contact-us p {
   line-height: 12px;
 }
 
-.contact-us .contact-name {
-  padding-top: 20px;
+#contact-us a {
+  color: black;
+  font-weight: 500;
 }
 
-.contact-us a {
-  color: white;
-}
 
 #map {
-  display: none;
-  position: absolute;
-  top: 220px;
-  right: 150px;
-  width: 350px;
-  height: 250px;
+  display: block;
+  width: 400px;
+  height: 300px;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 44px auto 50px auto;
   background-color: #ccc;
-  clear: bottom;
 }
 
 /* FOOTER for ALL pages */
@@ -967,11 +895,10 @@ header {
 .science-side-nav {
       display: none;
     }
-  #map {
-      height: 175px;
-      width: 275px;
-      right: 50px;
-    }
+
+    #map {
+  margin: 25px auto 30px auto;
+}
 }
 
 @media screen and (max-width: 720px) {
@@ -1033,11 +960,9 @@ header {
   width: 500px;
 }
 
-    #map {
-      height: 175px;
-      width: 250px;
-      right: 10px;
-    }
+#map {
+  margin: 25px auto 30px auto;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -1108,8 +1033,11 @@ header {
 .contact-us {
   padding-right: 100px;
 }
-  #map {
-      display: none;
-    }
+
+#map {
+  margin: 25px auto 30px auto;
+  height: 200px;
+  width: 300px;
+}
 }
 }
