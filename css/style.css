@@ -563,6 +563,11 @@ header {
 .about-side-nav .nav a:hover {
   color: #929292;
 }
+
+#scientific-founders img {
+  width: 80px;
+  height: auto;
+}
 /* SCIENCE PAGE */
 #biology h5 {
   color: #929292;
@@ -710,17 +715,15 @@ header {
   font-weight: 500;
 }
 
-
-#map {
+iframe {
   display: block;
   height: 300px;
   width: 400px;
   max-width: 600px;
   min-width: 300px;
-  margin: 44px auto 50px auto;
+  margin: 44px 0 50px 15px;
   background-color: #ccc;
 }
-
 /* FOOTER for ALL pages */
 .footer {
     margin-top: 50px;
@@ -945,7 +948,7 @@ h1, h2, h3, h4, h5, li, p {
     width: 500px;
 }
 
-#map {
+iframe {
     margin: 25px auto 30px auto;
 }
 }
@@ -1020,7 +1023,7 @@ h1, h2, h3, h4, h5, li, p {
   padding-right: 100px;
 }
 
-#map {
+iframe {
   margin: 25px auto 30px auto;
   height: 200px;
   width: 300px;
