@@ -556,7 +556,7 @@ header {
 }
 
 .about-side-nav .nav a {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     color: #5B9BD5;
 }
@@ -625,7 +625,7 @@ header {
 }
 
 .science-side-nav .nav a {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     color: #5B9BD5;
 }
@@ -860,6 +860,14 @@ iframe {
 .cycle-slideshow .gallery-3 {
     height: 820px;
     width: 100%;
+}
+
+.about-side-nav .nav a {
+  font-size: 16px;
+}
+
+.science-side-nav .nav a {
+  font-size: 16px;
 }
 
 #investors ul {
