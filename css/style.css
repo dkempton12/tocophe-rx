@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -703,7 +704,8 @@ header {
 }
 
 #contact-us .col-group {
-  margin-left: 15px;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 #contact-us p {
@@ -721,8 +723,12 @@ iframe {
   width: 400px;
   max-width: 600px;
   min-width: 300px;
-  margin: 44px 0 50px 15px;
+  margin: 0 auto 44px auto;
   background-color: #ccc;
+}
+
+.footer p a {
+  color: white;
 }
 /* FOOTER for ALL pages */
 .footer {
@@ -823,7 +829,49 @@ iframe {
   text-align: center;
 }
 /* END of FOOTER */
+@media screen and (min-width: 1400px) {
+  h1, h2, h3, h4, h5, h6, p {
+    max-width: 750px;
+  }
 
+  p {
+    font-size: 16px;
+  }
+
+.cycle-slideshow {
+    height: 820px;
+    width: 100%;
+}
+.cycle-slideshow img {
+    height: 820px;
+    width: 100%;
+}
+
+.cycle-slideshow .gallery-1 {
+    height: 820px;
+    width: 100%;
+}
+
+.cycle-slideshow .gallery-2 {
+    height: 820px;
+    width: 100%;
+}
+
+.cycle-slideshow .gallery-3 {
+    height: 820px;
+    width: 100%;
+}
+
+#investors ul {
+    max-width: 750px;
+  }
+
+iframe {
+  height: 400px;
+  width: 500px;
+  margin: 0 auto;
+}
+}
 @media screen and (max-width: 1400px) {
 .cycle-slideshow {
     height: 580px;
@@ -839,12 +887,12 @@ iframe {
     width: 100%;
 }
 
-.cycle-slideshow .gallery-3 {
+.cycle-slideshow .gallery-2 {
     height: 580px;
     width: 100%;
 }
 
-.cycle-slideshow .gallery-2 {
+.cycle-slideshow .gallery-3 {
     height: 580px;
     width: 100%;
 }
