@@ -134,15 +134,17 @@ body {
   font: normal 100%/1.4 sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
 h1 {
     margin: 0;
     font-size: 36px;
     color: #5B9BD5;
-}
-
-h2, h3, h4, h5, h6, p {
-    max-width: 600px;
-    min-width: 300px;
 }
 
 h2 {
@@ -535,12 +537,6 @@ header {
 /* End of Mission Statement Section of HOME PAGE */
 
 /* ABOUT US Page */
-.about-header {
-    margin: 35px auto 15px auto;
-    font-weight: 500;
-    color: #282828;
-}
-
 .about-side-nav {
     position: fixed;
     margin: 120px 0 0 20px;
@@ -565,9 +561,53 @@ header {
   color: #929292;
 }
 
+.about-header {
+  color: #282828;
+}
+
+#about-us {
+  margin-bottom: 44px;
+}
+
+#scientific-founders {
+  margin-bottom: 24px;
+}
+
+#scientific-founders .founder {
+  padding-bottom: 20px;
+}
+
 #scientific-founders img {
-  width: 80px;
-  height: auto;
+  height: 86px;
+  width: 70px;
+  float: left;
+  margin-right: 15px;
+}
+
+#board-of-directors {
+  margin-bottom: 24px;
+}
+
+#board-of-directors .board {
+  padding-bottom: 30px;
+}
+
+#board-of-directors img {
+  height: 86px;
+  width: 76px;
+  float: left;
+  margin-right: 15px;
+}
+
+#scientific-advisory .advisory {
+  padding-bottom: 20px;
+}
+
+#scientific-advisory img {
+  height: 86px;
+  width: 76px;
+  float: left;
+  margin-right: 15px;
 }
 /* SCIENCE PAGE */
 #biology h5 {
