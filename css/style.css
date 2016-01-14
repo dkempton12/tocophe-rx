@@ -1050,6 +1050,13 @@ iframe {
 }
 
 @media screen and (max-width: 480px) {
+.logo img {
+    padding: 3px 10px 0 10px;
+    float: left;
+    height: auto;
+    width: 180px;
+}
+
 .btn {
     width: 33%;
   }
