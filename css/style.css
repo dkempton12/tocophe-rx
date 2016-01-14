@@ -1050,10 +1050,6 @@ iframe {
 }
 
 @media screen and (max-width: 480px) {
-.logo {
-    line-height: 55px;
-}
-
 .btn {
     width: 33%;
   }
