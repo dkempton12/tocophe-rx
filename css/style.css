@@ -221,7 +221,7 @@ header {
   background: #fff;
   position: fixed;
   z-index: 9998;
-  height: 54px;
+  height: 63px;
   width: 100%;
   left: 0;
   top: 0;
@@ -323,9 +323,8 @@ header {
   padding: 0.7em 1em;
   float: left;
   background: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 100;
   letter-spacing: 1px;
   color: #929292;
 }
@@ -506,14 +505,14 @@ header {
 
 /* HOME PAGE Mission Statement Section */
 #mission h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-weight: 500;
-    color: #5B9BD5;
+    
 }
 
 #mission .mission-heading {
     margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #5B9BD5;
 }
 
 #mission .mission-p {
